@@ -21,7 +21,7 @@ CREATE TABLE votos (
     candidato_id INT,
     data_hora DATETIME NOT NULL,
     protocolo_criptografado VARCHAR(255) NOT NULL,
-    
+
     FOREIGN KEY (candidato_id) REFERENCES candidatos(id)
 );
 CREATE TABLE logs (
