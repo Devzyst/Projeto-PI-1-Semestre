@@ -2,7 +2,7 @@ from database.conexao import conectar
 def listar_candidatos():
     """
     Lista todos os candidatos cadastrados no banco de dados.
-
+    
     Args:
         None.
 
